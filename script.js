@@ -43,7 +43,7 @@ function launchFireworks() {
                 x: x,
                 y: y,
                 radius: 2,
-                color: `hsl(${Math.random() * 360}, 100%, 50%)`,
+                color: white,
                 speedX: (Math.random() - 0.5) * 8,
                 speedY: (Math.random() - 0.5) * 8,
                 alpha: 1
