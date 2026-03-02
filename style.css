@@ -43,6 +43,13 @@ img {
     cursor: pointer;
 }
 .disclaimer {
+    font-size: 13px;
+    font-family: 'Courier New', cursive;
+    color: #ffd1dc;
+    margin-top: 25px;
+    line-height: 1.6;
+}
+.disclaimer {
     font-size: 14px;
     font-style: italic;
     margin-top: 25px;
