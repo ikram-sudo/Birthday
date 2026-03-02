@@ -42,7 +42,13 @@ img {
     color: white;
     cursor: pointer;
 }
-
+.disclaimer {
+    font-size: 13px;
+    font-family: 'Courier New', cursive;
+    color: #ffd1dc;
+    margin-top: 25px;
+    line-height: 1.6;
+}
 .main-content {
     display: none;
     padding: 20px;
