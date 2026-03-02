@@ -210,3 +210,27 @@ h1 {
         max-width: 700px;
     }
 }
+@media (max-width: 600px) {
+
+    .timeline {
+        width: 100%;
+    }
+
+    .timeline p {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+}
+.timeline p {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
