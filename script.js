@@ -43,7 +43,7 @@ function launchFireworks() {
                 x: x,
                 y: y,
                 radius: 2,
-                color: white,
+                color: "white",
                 speedX: (Math.random() - 0.5) * 8,
                 speedY: (Math.random() - 0.5) * 8,
                 alpha: 1
@@ -63,6 +63,8 @@ function launchFireworks() {
             ctx.beginPath();
             ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
             ctx.fillStyle = p.color;
+            ctx.shadowColor = "white";
+            ctx.shadowBlur = 10;
             ctx.fill();
 
             if (p.alpha <= 0) {
