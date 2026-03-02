@@ -43,11 +43,10 @@ img {
     cursor: pointer;
 }
 .disclaimer {
-    font-size: 13px;
-    font-family: 'Courier New', cursive;
-    color: #ffd1dc;
+    font-size: 14px;
+    font-style: italic;
     margin-top: 25px;
-    line-height: 1.6;
+    color: #ffd1dc;
 }
 .main-content {
     display: none;
